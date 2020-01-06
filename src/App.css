@@ -1,0 +1,136 @@
+body {
+  background-color: lightgrey;
+  font-family: Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+}
+ul {
+  list-style-type: none;
+}
+
+.title {
+  animation: App-logo-spin 1 .4s linear;
+  position: relative;
+  left: 35vw;
+  font-size: 6vh;
+  color: black;
+  margin: 2vh;
+  padding-bottom: 2em;
+}
+.stockTicker {
+  z-index: 3;
+  position: relative;
+  left: 35vw;
+}
+.App {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+}
+.AScrips {
+  z-index: 2;
+  padding: 1%;
+}
+.TScrips {
+  z-index: 2;
+  padding: 1%;
+}
+.LittleSubs {
+  /*position: sticky;*/
+  color: black;
+}
+.timestamp {
+  /*position: sticky;*/
+  font-family: monospace;
+  color: black;
+  font-style: italic;
+}
+.layOverLegend {
+  display: block;
+  z-index: 2;
+  height: 30%;
+  width: 30%;
+  font-size: 3vh;
+  font-weight: 600;
+  position: absolute;
+  left: 2%;
+}
+.charts {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.InvChart {
+  z-index: 1;
+  left: 10%;
+  position: relative;
+  align-self: center;
+  align-items: center;
+  width: 75%;
+  border-style: solid;
+  border-width: thin;
+  border-color: gray;
+  padding-bottom: 2vh;
+}
+.AlrtChart {
+  z-index: 1;
+  left: 10%;
+  position: relative;
+  align-self: center;
+  align-items: center;
+  width: 75%;
+  border-style: solid;
+  border-width: thin;
+  border-color: gray;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+}
+.worstChart {
+  z-index: 1;
+  left: 10%;
+  position: relative;
+  align-self: center;
+  width: 75%;
+
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+}
+.sideBar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  z-index: 2;
+  position: absolute;
+  left: 5%;
+}
+.sideBarButton {
+  position: sticky;
+  background-color: white;
+  border-style: solid;
+  border-width: medium;
+  border-color: darkgrey;
+}
+.alertsSum {
+  padding: 2vh;
+  position: relative;
+  left: 18%;
+  display: flex;
+  flex-direction: column;
+}
+.titled {
+  -ms-transform: rotate(20deg); /* IE 9 */
+  -webkit-transform: rotate(20deg); /* Safari prior 9.0 */
+  transform: rotate(20deg); /* Standard syntax */
+}
+.theT {
+  z-index: 5;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
