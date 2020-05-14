@@ -1,6 +1,0 @@
---2019-07-23 08:44:52--  https://orbitbi-tableau.demo.com/t/TRM/views/PublicCloudSubscriptions_Public/PublicCloudSubscriptions?%3Aembed=y
-Resolving orbitbi-tableau.demo.com (orbitbi-tableau.demo.com)... 10.175.229.244
-Connecting to orbitbi-tableau.demo.com (orbitbi-tableau.demo.com)|10.175.229.244|:443... connected.
-ERROR: cannot verify orbitbi-tableau.demo.com's certificate, issued by ‘CN=demoInternalIssuingCA2,O=demo,L=Minneapolis,ST=Minnesota,C=US’:
-  Self-signed certificate encountered.
-To connect to orbitbi-tableau.demo.com insecurely, use `--no-check-certificate'.
